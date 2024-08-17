@@ -32,3 +32,7 @@ spring:
     user: tg
     url: jdbc:mysql://localhost:3306/management_system
 
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
